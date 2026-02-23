@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PTFS RP</title>
+</head>
+<body>
+
+<h1>Bienvenue sur PTFS RP ✈️</h1>
+
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.9.0/firebase-app.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyDcydBIUb8FinRubDtmRQK8ga963JhnyZI",
+    authDomain: "ptfs-rpfr.firebaseapp.com",
+    projectId: "ptfs-rpfr",
+    storageBucket: "ptfs-rpfr.firebasestorage.app",
+    messagingSenderId: "521408549468",
+    appId: "1:521408549468:web:a5ef60644c1fe245b44c99"
+  };
+
+  const app = initializeApp(firebaseConfig);
+
+  console.log("Firebase connecté !");
+</script>
+
+</body>
+</html>
